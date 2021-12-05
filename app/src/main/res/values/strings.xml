@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MobileCookingCompanion</string>
+    <string name="title_home">Home</string>
+    <string name="title_pantry">Pantry</string>
+    <string name="title_recipes">Recipes</string>
+    <string name="title_settings">Settings</string>
+</resources>

@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/mobile_navigation"
     xmlns:tools="http://schemas.android.com/tools"
-    app:startDestination="@+id/navigation_home">
+    app:startDestination="@id/navigation_home">
 
     <fragment
         android:id="@+id/navigation_home"
@@ -28,4 +28,10 @@
         android:name="com.example.mobilecookingcompanion.SettingsFragment"
         android:title="@string/title_settings"
         tools:layout="@layout/fragment_settings"/>
+
+    <fragment
+        android:id="@+id/fragment_app_information"
+        android:name="com.example.mobilecookingcompanion.SettingsFragment"
+        android:title="@string/title_app_information"
+        tools:layout="@layout/fragment_app_information"/>
 </navigation>

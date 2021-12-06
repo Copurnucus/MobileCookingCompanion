@@ -17,11 +17,15 @@
         <entry key="..\:/MobileCookingCompanion/app/src/main/res/menu/bottom_navigation.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/vbsco/AndroidStudioProjects/MobileCookingCompanion/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.346875" />
         <entry key="..\:/Users/vbsco/AndroidStudioProjects/MobileCookingCompanion/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.346875" />
+        <entry key="..\:/Users/vbsco/AndroidStudioProjects/MobileCookingCompanion/app/src/main/res/drawable/ic_baseline_pantry_24.xml" value="0.34791666666666665" />
         <entry key="..\:/Users/vbsco/AndroidStudioProjects/MobileCookingCompanion/app/src/main/res/drawable/ic_baseline_recipes_24.xml" value="0.346875" />
+        <entry key="..\:/Users/vbsco/AndroidStudioProjects/MobileCookingCompanion/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.33958333333333335" />
         <entry key="..\:/Users/vbsco/AndroidStudioProjects/MobileCookingCompanion/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.346875" />
         <entry key="..\:/Users/vbsco/AndroidStudioProjects/MobileCookingCompanion/app/src/main/res/drawable/ic_baseline_sync_24.xml" value="0.346875" />
         <entry key="..\:/Users/vbsco/AndroidStudioProjects/MobileCookingCompanion/app/src/main/res/drawable/ic_launcher_background.xml" value="0.346875" />
-        <entry key="..\:/Users/vbsco/AndroidStudioProjects/MobileCookingCompanion/app/src/main/res/layout/fragment_home.xml" value="0.2695035460992908" />
+        <entry key="..\:/Users/vbsco/AndroidStudioProjects/MobileCookingCompanion/app/src/main/res/drawable/roundedbutton.xml" value="0.33958333333333335" />
+        <entry key="..\:/Users/vbsco/AndroidStudioProjects/MobileCookingCompanion/app/src/main/res/layout/fragment_app_information.xml" value="0.33177083333333335" />
+        <entry key="..\:/Users/vbsco/AndroidStudioProjects/MobileCookingCompanion/app/src/main/res/layout/fragment_home.xml" value="0.25" />
         <entry key="..\:/Users/vbsco/AndroidStudioProjects/MobileCookingCompanion/app/src/main/res/layout/fragment_pantry.xml" value="0.33" />
         <entry key="..\:/Users/vbsco/AndroidStudioProjects/MobileCookingCompanion/app/src/main/res/layout/fragment_recipes.xml" value="0.18" />
         <entry key="..\:/Users/vbsco/AndroidStudioProjects/MobileCookingCompanion/app/src/main/res/layout/fragment_settings.xml" value="0.33" />

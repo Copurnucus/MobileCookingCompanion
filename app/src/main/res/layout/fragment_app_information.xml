@@ -5,50 +5,39 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <TextView
-        android:id="@+id/welcome_text"
+        android:id="@+id/top_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Welcome to your personal Mobile Cooking Companion.\n"
-        android:textSize="20sp"
+        android:text="This application was made for SWE 3313: Introduction to Software Engineering\n"
+        android:textSize="18sp"
         android:layout_alignParentTop="true"
         android:layout_centerInParent="true"
         android:textAlignment="center"/>
 
     <TextView
-        android:id="@+id/arsenal_text"
+        android:id="@+id/creator_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Here you will be able to keep track of your current pantry items and any recipes you would like to have in your arsenal!"
-        android:textSize="20sp"
+        android:text="It was created by Kennesaw State University students: Jeremy Ray, Thomas Roberts, Vitor Santos, Joshua Schoen, and Katlin Scott."
+        android:textSize="18sp"
         android:layout_centerInParent="true"
         android:textAlignment="center"
-        android:layout_below="@id/welcome_text"/>
+        android:layout_below="@id/top_text"/>
 
     <TextView
         android:id="@+id/button_below_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="To see what you can make, press the button below!\n"
-        android:textSize="20sp"
+        android:text="Mobile Cooking Companion\nVersion: (1)\nLast Updated: (12/06/2021)"
+        android:textSize="18sp"
         android:layout_centerInParent="true"
         android:textAlignment="center"
-        android:layout_above="@id/search_button"/>
-
-    <ImageButton
-        android:id="@+id/search_button"
-        android:layout_width="90dp"
-        android:layout_height="90dp"
-        android:layout_centerInParent="true"
-        android:background="@drawable/roundedbutton"
-        android:src="@drawable/ic_baseline_search_24"
-        app:tint="@android:color/white" />
+        android:layout_alignParentBottom="true"/>
 
     <FrameLayout
-        android:id="@+id/fragment_home"
+        android:id="@+id/fragment_app_information"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="0dp">
-
-    </FrameLayout>
+        android:layout_marginTop="0dp"/>
 
 </RelativeLayout>

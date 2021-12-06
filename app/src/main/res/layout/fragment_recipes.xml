@@ -2,20 +2,48 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@android:color/holo_green_light">
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <TextView
+        android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Recipes Fragment"
+        android:text="Recipes\n"
         android:textSize="30sp"
+        android:layout_alignParentTop="true"
         android:layout_centerInParent="true"/>
+
+    <ImageButton
+        android:id="@+id/recipe1"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/title"
+        android:layout_centerInParent="true"
+        android:background="@drawable/button_bordered"
+        android:text="Button" />
+
+    <TextView
+        android:id="@+id/spacer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_below="@id/recipe1" />
+
+    <ImageButton
+        android:id="@+id/recipe2"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/spacer"
+        android:layout_centerInParent="true"
+        android:background="@drawable/button_bordered"
+        android:text="Button" />
 
     <FrameLayout
         android:id="@+id/fragment_recipes"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="0dp"/>
+        android:layout_marginTop="0dp">
+
+    </FrameLayout>
 
 </RelativeLayout>

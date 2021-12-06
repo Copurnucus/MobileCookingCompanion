@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mobile_navigation"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.mobilecookingcompanion.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home"/>
+
+    <fragment
+        android:id="@+id/navigation_pantry"
+        android:name="com.example.mobilecookingcompanion.PantryFragment"
+        android:title="@string/title_pantry"
+        tools:layout="@layout/fragment_pantry" />
+
+    <fragment
+        android:id="@+id/navigation_recipes"
+        android:name="com.example.mobilecookingcompanion.RecipesFragment"
+        android:title="@string/title_recipes"
+        tools:layout="@layout/fragment_recipes"/>
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.example.mobilecookingcompanion.SettingsFragment"
+        android:title="@string/title_settings"
+        tools:layout="@layout/fragment_settings"/>
+</navigation>

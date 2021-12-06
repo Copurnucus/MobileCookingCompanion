@@ -4,20 +4,24 @@
     <item
         android:id="@+id/nav_home"
         android:icon="@drawable/ic_baseline_home_24"
-        android:title="@string/title_home" />
+        android:title="@string/title_home"
+        android:actionLayout="@layout/fragment_home"/>
 
     <item
         android:id="@+id/nav_pantry"
         android:icon="@drawable/ic_baseline_pantry_24"
-        android:title="@string/title_pantry" />
+        android:title="@string/title_pantry"
+        android:actionLayout="@layout/fragment_pantry"/>
 
     <item
         android:id="@+id/nav_recipes"
         android:icon="@drawable/ic_baseline_recipes_24"
-        android:title="@string/title_recipes" />
+        android:title="@string/title_recipes"
+        android:actionLayout="@layout/fragment_recipes"/>
 
     <item
         android:id="@+id/nav_settings"
         android:icon="@drawable/ic_baseline_settings_24"
-        android:title="@string/title_settings" />
+        android:title="@string/title_settings"
+        android:actionLayout="@layout/fragment_settings"/>
 </menu>

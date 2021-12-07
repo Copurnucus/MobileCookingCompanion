@@ -4,26 +4,41 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
+    <ImageButton
+        android:id="@+id/add_pantry_item"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/ic_baseline_add_circle_outline_24"
+        android:layout_alignParentRight="true"
+        />
+
     <TextView
     android:id="@+id/title"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:text="Pantry\n"
+    android:text="Pantry"
     android:textSize="30sp"
     android:layout_alignParentTop="true"
     android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/spacer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_below="@id/title" />
 
     <ImageButton
         android:id="@+id/pantry1"
         android:layout_width="300dp"
         android:layout_height="100dp"
-        android:layout_below="@id/title"
+        android:layout_below="@id/spacer"
         android:layout_centerInParent="true"
         android:background="@drawable/button_bordered"
         android:text="Button" />
 
     <TextView
-        android:id="@+id/spacer"
+        android:id="@+id/spacer1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text=""
@@ -33,7 +48,7 @@
         android:id="@+id/pantry2"
         android:layout_width="300dp"
         android:layout_height="100dp"
-        android:layout_below="@id/spacer"
+        android:layout_below="@id/spacer1"
         android:layout_centerInParent="true"
         android:background="@drawable/button_bordered"
         android:text="Button" />

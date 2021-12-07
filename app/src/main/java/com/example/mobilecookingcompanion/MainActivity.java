@@ -30,9 +30,6 @@ public class MainActivity extends AppCompatActivity {
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new AppInformationFragment()).commit();
             }
         });
-
-
-
     }
 //Using a depreciated method because we were having issues with the appropriate one and we don't have time to restructure things
     private BottomNavigationView.OnNavigationItemSelectedListener navListener =

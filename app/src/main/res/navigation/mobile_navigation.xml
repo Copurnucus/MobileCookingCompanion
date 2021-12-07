@@ -15,13 +15,21 @@
         android:id="@+id/navigation_pantry"
         android:name="com.example.mobilecookingcompanion.PantryFragment"
         android:title="@string/title_pantry"
-        tools:layout="@layout/fragment_pantry" />
+        tools:layout="@layout/fragment_pantry" >
+        <action
+            android:id="@+id/action_navigation_pantry_to_fragment_add_ingredient"
+            app:destination="@id/fragment_add_ingredient" />
+    </fragment>
 
     <fragment
         android:id="@+id/navigation_recipes"
         android:name="com.example.mobilecookingcompanion.RecipesFragment"
         android:title="@string/title_recipes"
-        tools:layout="@layout/fragment_recipes"/>
+        tools:layout="@layout/fragment_recipes">
+        <action
+            android:id="@+id/action_navigation_recipes_to_fragment_add_recipe"
+            app:destination="@id/fragment_add_recipe" />
+    </fragment>
 
     <fragment
         android:id="@+id/navigation_settings"
@@ -34,4 +42,18 @@
         android:name="com.example.mobilecookingcompanion.SettingsFragment"
         android:title="@string/title_app_information"
         tools:layout="@layout/fragment_app_information"/>
+
+    <fragment
+        android:id="@+id/fragment_add_ingredient"
+        android:name="com.example.mobilecookingcompanion.AddPantryItemFragment"
+        android:title="@string/title_add_pantry_item"
+        tools:layout="@layout/fragment_add_pantry_item"
+        />
+
+    <fragment
+        android:id="@+id/fragment_add_recipe"
+        android:name="com.example.mobilecookingcompanion.AddPantryItemFragment"
+        android:title="@string/title_add_pantry_item"
+        tools:layout="@layout/fragment_add_pantry_item"
+        />
 </navigation>

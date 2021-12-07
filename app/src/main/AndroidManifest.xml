@@ -18,6 +18,7 @@
                     <category android:name="android.intent.category.LAUNCHER" />
                 </intent-filter>
         </activity>
-        <activity android:name=".AppInformationFragment" />
+        <activity android:name=".AppInformationFragment"
+            android:parentActivityName=".MainActivity"/>
     </application>
 </manifest>

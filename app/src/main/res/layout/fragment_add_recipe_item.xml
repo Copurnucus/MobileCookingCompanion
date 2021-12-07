@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Add an Recipe"
+        android:textSize="30sp"
+        android:layout_centerInParent="true"
+        />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Ingredients:"
+        android:textSize="20sp"
+        android:translationX="20sp"
+        android:translationY="57sp"
+        />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Quantity:"
+        android:textSize="20sp"
+        android:translationX="20sp"
+        android:translationY="110sp"
+        />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Select Unit"
+        android:textSize="20sp"
+        android:translationX="20sp"
+        android:translationY="161sp"
+        />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Number of Steps"
+        android:textSize="20sp"
+        android:translationX="20sp"
+        android:translationY="210sp"
+        />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="[StepId]"
+        android:textSize="20sp"
+        android:translationX="20sp"
+        android:translationY="260sp"
+        />
+
+    <FrameLayout
+        android:id="@+id/fragment_settings"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="0dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/ingredient_name"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="[Ingredients]"
+            android:translationX="190sp"
+            android:translationY="50sp" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="[Quantity]"
+            android:translationX="190sp"
+            android:translationY="100sp" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="Select Quantity Unit"
+            android:translationX="190sp"
+            android:translationY="150sp" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="[intNumber]"
+            android:translationX="190sp"
+            android:translationY="200sp" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="[RecipeStep]"
+            android:translationX="190sp"
+            android:translationY="250sp" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="400sp"
+            android:layout_height="80sp"
+            android:translationX="5sp"
+            android:translationY="300sp"
+            app:srcCompat="@drawable/roundedbutton" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:translationX="190sp"
+            android:translationY="325sp" />
+    </FrameLayout>
+
+</RelativeLayout>

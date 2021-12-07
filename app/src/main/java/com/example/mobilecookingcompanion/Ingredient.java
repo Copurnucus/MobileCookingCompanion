@@ -8,6 +8,12 @@ public class Ingredient {
     String unitOfQuantity;
     LocalDate expirationDate;
 
+    public Ingredient(String name, float quantity, String unitOfQuantity) {
+        this.name= name;
+        this.quantity = quantity;
+        this.unitOfQuantity = unitOfQuantity;
+    }
+
     public Ingredient(String name, float quantity, String unitOfQuantity, LocalDate expirationDate) {
         this.name= name;
         this.quantity = quantity;
